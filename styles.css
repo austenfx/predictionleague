@@ -72,6 +72,84 @@ h1{
     color: white;
 }
 
+.leaderboard{
+    text-align: center;
+    color: var(--blue);
+    background-color: white;
+    padding: 30px;
+    padding-left: 45px;
+    padding-top: 0px;
+    border-radius: 10px;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    border: solid var(--blue);
+}
+
+.leaderboard h3{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.gameweek{
+    width: 600px;
+
+    background-color: var(--blue);
+
+    border-radius: 10px;
+    border: solid white;
+    color: white;
+}
+
+.week-title{
+    text-align: center;
+}
+
+.matches{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.match h3{
+ text-align: center;
+ font-size: 24px;
+}
+
+.match li{
+    font-size: 20px;
+    
+}
+
+.match .score{
+    text-align: center;
+    font-size: 24px;
+    color: var(--green);
+}
+
+.guess{
+    color: var(--green);
+}
+
+.points-title{
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.week-points{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
     
 }
